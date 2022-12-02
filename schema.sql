@@ -18,7 +18,3 @@ CREATE TABLE IF NOT EXISTS daily_weather
     BackupName TEXT,
     days INTEGER,
     newDATE DATE)
-
-TODO
-
-TODO
