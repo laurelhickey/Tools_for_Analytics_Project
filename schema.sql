@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS daily_weather
     LONGITUDE FLOAT,
     NAME TEXT,
     days INTEGER,
-    newDATE DATE
+    newDATE YEAR MONTH
     )
 
 CREATE TABLE IF NOT EXISTS taxi_trips
