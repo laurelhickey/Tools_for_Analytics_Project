@@ -5,8 +5,12 @@ CREATE TABLE IF NOT EXISTS hourly_weather
     LATITUDE FLOAT,
     LONGITUDE FLOAT,
     NAME TEXT,
+    HourlyWindDirection INTEGER,
+    HourlyWindGustSpeed FLOAT,
+    HourlyWindSpeed	FLOAT,
     hours INTEGER,
-    newDATE DATE)
+    newDATE DATE
+    )
 
 CREATE TABLE IF NOT EXISTS daily_weather
     (id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -15,7 +19,8 @@ CREATE TABLE IF NOT EXISTS daily_weather
     LONGITUDE FLOAT,
     NAME TEXT,
     days INTEGER,
-    newDATE DATE)
+    newDATE DATE
+    )
 
 CREATE TABLE IF NOT EXISTS taxi_trips
     (id INTEGER PRIMARY KEY AUTOINCREMENT,	
@@ -26,7 +31,8 @@ CREATE TABLE IF NOT EXISTS taxi_trips
     pickup_longitude FLOAT,
     pickup_latitude FLOAT,
     dropoff_longitude FLOAT,
-    dropoff_latitude FLOAT)
+    dropoff_latitude FLOAT
+    )
 
 CREATE TABLE IF NOT EXISTS uber_trips
     (id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -38,4 +44,5 @@ CREATE TABLE IF NOT EXISTS uber_trips
     dropoff_latitude FLOAT,
     passenger_count INTEGER,
     Distance FLOAT,
-    day_of_week INTEGER)
+    day_of_week INTEGER
+    )
