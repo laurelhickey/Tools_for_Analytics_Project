@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS taxi_trips
     distance FLOAT,
     PULocationID FLOAT,
     DOLocationID FLOAT,
-    pick_hour FLOAT,
+    pickup_hour FLOAT,
     pickup_longitude FLOAT,
     pickup_latitude FLOAT,
     dropoff_longitude FLOAT,
