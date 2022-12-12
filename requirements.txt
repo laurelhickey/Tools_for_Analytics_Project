@@ -1,0 +1,12 @@
+!pip install matplotlib
+!pip install requests
+!pip install bs4
+!pip install sqlalchemy
+!pip install pandas
+!pip install geojsonio --upgrade
+!pip install geopandas
+!pip install ipywidgets
+!pip install keplergl
+!pip install numpy
+!pip install python-math
+!jupyter nbextension install --py --sys-prefix keplergl
